@@ -1,0 +1,1 @@
+import{j as e,C as s}from"./react-spline.CZFG0uJL.js";import"./index.BVOCwoKb.js";function a(){return e.jsx("section",{className:"h-dvh w-dvw max-h-dvh max-w-dvw bg-[rgba(0,0,0,0.1)]",children:e.jsx(s,{scene:"https://prod.spline.design/yqeWTxsiLPbNFWQu/scene.splinecode",width:1920,height:1080,className:"size-full inset-0 m-0 max-w-dvw max-h-dvh"})})}export{a as default};

@@ -1,0 +1,30 @@
+---
+import LogoOne from "../components/LogoOne";
+import LogoTwo from "../components/LogoTwo";
+import LogoThree from "../components/LogoThree";
+import LogoFour from "../components/LogoFour";
+import LogoFive from "../components/LogoFive";
+import SocialPostOne from "../components/SocialPostOne";
+import EffectCards from "../components/effect-cards/index.astro"
+import BlueLogos from "../components/blue-logos/index.astro"
+import "../styles/global.css"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body className="w-dvw h-dvh m-0 inset-0">
+		<LogoOne client:only="react" />
+		<LogoTwo client:only="react" />
+		<LogoThree client:only="react" />
+		<LogoFour client:only="react" />
+		<LogoFive client:only="react" />
+		<BlueLogos />
+		<EffectCards />
+	</body>
+</html>
